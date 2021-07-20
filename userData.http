@@ -1,0 +1,41 @@
+// new user register API
+POST http://localhost:3000/register 
+Content-Type: application/json
+
+{
+  "username": "vidiya33333",
+  "name": "vidiya gummalla",
+  "password": "1234567",
+  "gender": "female",
+  "location": "AP"
+}
+
+###
+//LOGIN API 
+
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "vidiya33333",
+  "password": "123456789"
+}
+
+###
+// change password request
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+  "username": "vidiya33333",
+  "oldPassword": "1234567",
+  "newPassword": "123456789"
+}
+
+
+
+
+
+
+
